@@ -36,7 +36,7 @@ The EAP server is now ready to be started.  Again, there are several ways to sta
 First, set the `M2_HOME` environment variable to the location of the `.m2` directory.
 
 ```sh
-> export M2_HOME=/home/sunil/.m2
+> export M2_HOME=/home/john/.m2
 ```
 The KJar would have been installed into the `.m2/repository` directory.  This is from where the kie-server will install the kjar.  **That is, the kie-server uses the maven repository to find the kjar and to deploy it into the service**
 

@@ -15,11 +15,12 @@ This will create a directory named `jboss-eap-7.0.0`.  This will also be the dir
 ### Install BRMS for EAP 7
 Download the kie-server from the Red Hat access site.<br>
 https://access.redhat.com/products/red-hat-jboss-brms/<br>
+This documentation uses the *Red Hat JBoss BRMS 6.4.0 Deployable for EAP 7* namely **jboss-brms-6.4.0.GA-deployable-eap7.x.zip** zip file.
 
 NOTE: Make sure to unzip this file into the EAP 7 directory.  It will update the jboss-eap-7.0.0 directory.
 
 ```sh
-> unzip jboss-brms-7.x.x.GA-deployable-eap7.x.zip
+> unzip jboss-brms-6.4.0.GA-deployable-eap7.x.zip
 ```
 
 ### Create User and Role
